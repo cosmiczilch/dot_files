@@ -71,6 +71,8 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'Raimondi/delimitMate'
 " Plugin 'scrooloose/syntastic'
+Plugin 'mxw/vim-jsx'
+Plugin 'elzr/vim-json'
 
 " This does what it says on the tin. It will check your file on open too, not just on save.
 " You might not want this, so just leave it out if you don't.
