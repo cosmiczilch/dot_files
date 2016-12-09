@@ -55,6 +55,8 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+Plugin 'nerdtree'
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -68,11 +70,11 @@ Plugin 'jelera/vim-javascript-syntax'
 Plugin 'pangloss/vim-javascript'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'Raimondi/delimitMate'
-Plugin 'scrooloose/syntastic'
+" Plugin 'scrooloose/syntastic'
 
 " This does what it says on the tin. It will check your file on open too, not just on save.
 " You might not want this, so just leave it out if you don't.
-let g:syntastic_check_on_open=1
+" let g:syntastic_check_on_open=1
 
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'marijnh/tern_for_vim'
