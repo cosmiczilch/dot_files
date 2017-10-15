@@ -41,3 +41,8 @@ function git_diff() {
 alias gigha='ssh root@amie.hkmr.in'
 alias sand='cd ~/sandbox'
 alias timi='cd ~/sandbox/Projects/timi_tracking'
+
+alias htdocs='/Applications/MAMP/htdocs'
+alias phpsh='~/bin/phpsh'
+
+alias octave='/usr/local/octave/3.8.0/bin/octave-3.8.0'

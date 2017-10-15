@@ -480,5 +480,8 @@ let NERDTreeAutoDeleteBuffer = 1
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 
+" close vim if nerd tree is the last open buffer
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
 execute pathogen#infect()
 call pathogen#helptags()
